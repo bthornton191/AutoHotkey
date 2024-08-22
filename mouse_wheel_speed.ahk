@@ -18,3 +18,5 @@ MouseIsOver(proc_name) {
     current_win_pname := WinGetProcessName(WinGetTitle(id_))
     return (proc_name == current_win_pname)
 }
+
+#NoTrayIcon
